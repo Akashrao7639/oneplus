@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: white;
+    color:black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.headerimg1 img{
+    width: 150px;
+    height: 70px;
+    margin-left: 30px;
+   
+}
+
+.option ,ul{
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+
+}
+.option ul,li:hover{
+   color: red;
+   cursor: pointer;
+}
+
+
+.header1icons img{
+    width: 30px;
+    height: 30px; 
+    margin-left: 30px;
+
+
+}
+.header1icons img:hover{
+    cursor: pointer;
+    
+}
+/************product 1*************/
+.p1{
+    background-image: url("banar img/01-pc.jpg.thumb.webp" );
+    color:black;
+   background-size:cover;
+    width: 100%;
+    height: 700px;
+   
+}
+.p1 h1{
+     padding-top: 270px;
+     padding-left: 45px;
+}
+.p1 button{
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 45px;
+    border-radius: 30px;
+
+}
+.p1 button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/**************product 2***************/
+ .p2{
+     background-color: gray;
+     width: 100%;
+     height: 400px;  
+     display: flex;
+     margin-top: 30px;
+     justify-content: space-between;
+ }
+ .p2part img{
+    width: 300px;
+ }
+ .p2part h3{
+    
+margin-left: 80px;
+  
+ }
+ /******************product 3***************/
+ .p3{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    color:black;
+     display: flex;
+     justify-content: space-between;
+     
+ }
+ .p3part img{
+    width: 450px;
+   
+    
+ }
+ .p3part h3{
+    margin-left: 80px;
+ }
+ .p3part{
+   
+    border-style:groove;
+    border-color: black;
+    width: 500px;
+    height: 550px;
+    border-width: 5px;
+    border-radius: 20px;
+    margin-top: 30px;
+ }
+ .p3 button{
+    margin-top:650px;
+    width: 100px;
+    height: 70px;
+ }
+ /**********p3 button*******************/
+ .p3button{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+ }
+ 
+ 
+ 
+ .p3button button{
+    width: 160px;
+    height: 60px;
+    margin-left: 600px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    
+ }
+ .p3button button:hover{
+    background-color:gray;
+    color: black;
+    cursor: pointer;
+ }
+ /***************product4**********/
+ .p4{
+    background-color: black;
+    width: 100%;
+    height:450px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+ }
+ .p4 h3{
+    margin-left: 65px;
+
+ }
+ /************product 5*************/
+ .p5{
+    background-color:white;
+    width: 100%;
+    height:350px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+ }
+ .p5 img{
+    width: 200px;
+
+ }
+ .p5 h3{
+    margin-left: 60px;
+ }
+ /***********futter*********/
+
+ .futter{
+    background-color:black;
+    width: 100%;
+    height:450PX;
+    display: flex;
+    color: white;
+ }
+ .futter-contant{
+   margin-left: 200px;
+   margin-top: 100px;
+    
+ }
+ .futter-contant h4{
+    padding: 15px;
+ }
+ .futter-contant:hover{
+   cursor: pointer;
+ }
